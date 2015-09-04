@@ -1,0 +1,36 @@
+compose2kube
+Convert docker-compose service files to Kubernetes objects.
+Tags: docker, kubernetes
+
+Kelsey Hightower
+Kubernetes Community
+kelsey.hightower@gmail.com
+@kelseyhightower
+
+* Agenda
+
+- Quick overview of docker-compose and compose2kube
+- Live demonstration of docker-compose
+- Live demonstartion of compose2kube
+
+* docker-compose
+
+Define and run multi-container applications with Docker
+
+.link https://github.com/docker/compose
+
+- Service defined in a docker-compose.yml file
+- Almost like pods but not really
+- Development tool and not recommended for production.
+
+* compose2kube
+
+Convert docker-compose service files to Kubernetes objects.
+
+.link https://github.com/kelseyhightower/compose2kube
+
+- Creates replication controllers from docker-compose.yml files
+- Uses docker/libcompose under the hood
+- Spits out rc files 
+
+* Demo
